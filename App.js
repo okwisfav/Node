@@ -1,8 +1,10 @@
-// Globals -No Windows 
+const john = 'john'
+const  peter = 'peter'
 
-//__ dirname - path to current directory 
-//__filename -file name
-//require  -- function to use modules(commonjs)
-//module   -info about current module (file)
+const sayHi = (name) => {
+    console.log(`hello there ${name}`);
+}
 
-//process -info about env where the program is being executed
+sayHi('favour')
+sayHi('John')
+sayHi('peter')

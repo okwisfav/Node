@@ -1,10 +1,8 @@
-const amount = 12
+// Globals -No Windows 
 
-if(amount < 10){
-    console.log('small number');
-}
-else{
-    console.log('large');
-}
+//__ dirname - path to current directory 
+//__filename -file name
+//require  -- function to use modules(commonjs)
+//module   -info about current module (file)
 
-console.log(`hey it's my first node app!!!`);
+//process -info about env where the program is being executed
